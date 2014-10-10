@@ -4,12 +4,12 @@ Created By Sagar Rathi
 
  What are the benefits of version control?
 
- [Answer]
-•	It provides one code for an entire team to use; everybody operates version'.
-•	Changes are orderly and avoid overwriting , saving development time
-•	The ability to track changes and makes it easier to find the right person whom made changes and when.
-•	A list of exact changes made can be generated quickly and easily, making it easier to advise users of the information on how it has changed from version to version.
-•	It is easy to 'roll back' to an earlier version of the information, if a serious mistake was made during a change.
+ [Answer]<BR>
+•	It provides one code for an entire team to use; everybody operates version'.<br>
+•	Changes are orderly and avoid overwriting , saving development time<br>
+•	The ability to track changes and makes it easier to find the right person whom made changes and when.<br>
+•	A list of exact changes made can be generated quickly and easily, making it easier to advise users of the information on how it has changed from version to version.<br>
+•	It is easy to 'roll back' to an earlier version of the information, if a serious mistake was made during a change.<br>
 
 
 How does git help you keep track of changes?
@@ -19,10 +19,9 @@ How does git help you keep track of changes?
 
 Why use GitHub to store your code?
 
-[Answer] Following reasone one should store code at GitHub
-		1) Having greater choice of version control.
-		2) Can easly collaborating code with team and avoid Overwriting of code.
-		3) Easy Tracking of changes made to file by whom and when.
-		4) Rollback to previous version in bad code sitution.
-		5) Can create private repositories as wanted.
-
+[Answer] Following reasone one should store code at GitHub <br>
+		1) Having greater choice of version control.<br>
+		2) Can easly collaborating code with team and avoid Overwriting of code.<br>
+		3) Easy Tracking of changes made to file by whom and when.<br>
+		4) Rollback to previous version in bad code sitution.<br>
+		5) Can create private repositories as wanted.<br>
