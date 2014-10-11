@@ -1,5 +1,5 @@
-Welcome To Coding Fire Challenge <BR>
-First Week A Great Experience!!!
+<B>Welcome To Coding Fire Challenge</B> <BR>
+<i>First Week A Great Experience!!!</i>
 
 11/10/2014<BR>
 
