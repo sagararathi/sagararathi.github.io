@@ -1,0 +1,58 @@
+
+        #header {
+        width:90%;
+        height: auto;
+        margin:auto;
+        border: 1px solid black;
+        box-shadow: 4px 4px 4px black;
+        border-radius: 5px;
+        }
+        #head_T{
+            text-align:center;
+            font-family:Arial;
+            font-size:2em;
+        }
+        #container{
+            margin:auto;
+            margin-top:10px;
+            border-radius: 5px;
+            width:90%;
+            height: auto;
+            box-shadow: 4px 4px 4px black;
+            border: 1px solid black;
+          
+        }
+        #footer{
+            margin:auto;
+            margin-top:10px;
+            border-radius: 5px;
+            box-shadow: 4px 4px 4px black;
+            width:90%;
+            height: 30px;
+            border: 1px solid black;
+        }
+        #container p {
+        }
+        
+        #blog {
+            width: 85%;
+            height: auto;
+            padding: 10px;
+            margin: auto;
+        }
+        
+        
+        #footer a {
+            padding: 10px;
+            margin: auto;
+        }
+        
+        a:hover {
+            color: red;
+            text-decoration: none;
+        }
+        
+        #footer {
+            text-align: center;
+            padding-top: 5px;
+        }
