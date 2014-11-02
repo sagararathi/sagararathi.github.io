@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/tech.css">
+	<title>Blog on Enuerable#map</title>
+
+</head>
+<body>
+	<div ID="container">
+		<div ID="header">
+			
+ 
+
+		</div>
+
+		<div ID="content">
+			<div id="post">
+				<div> <h1>Enuerable#map</h1>
+					<p><h3 ID="tag">Created By Sagar Rathi<br>Date: 11/01/2014</h3></p>
+					<p>Ruby Map & group_by Enumerable Methods</p>
+					<p>This post will dive into map Enumerable, Ruby's most useful module</p>
+					<p>You've learned about Array and Hash but only got half the story... they each have their own methods for adding and deleting and accessing data and they both implement their own version of the <code>#each</code> method to iterate over their items but what makes them really powerful in Ruby is the ability to use <code>Enumerable</code> methods as well as the basic ones you've just learned.</p>
+					
+					<p>"<code>Enumerable</code>" is actually a "module", which means it is just a bunch of methods packaged together that can get "mixed in", or included, with other classes like Array and Hash. <code>Enumerable</code> gives you lots of useful ways of doing something to every element of a collection object like an array or hash, for instance, which is a very common thing to do when you're building programs and websites.</p>
+					<p>You've heard of <code>#map?</code> It's the EXACT same method as collect, just called something different. Some people visualize it in their heads as doing something and collecting the results, other people see it as re-mapping your original object through some sort of transformation. It's more conventional to use <code>#map</code> but both work the same way.</p>
+
+					<p><code>#map</code> returns a new array filled with whatever gets returned by the block each time it runs.</p><img src="../imgs/enum_map.png" style="margin=auto ">
+
+					<p>Now let's talk about another method called as #group_by.</p>
+					<p><code>#group_by</code> will run your block and return a hash that groups all the different types of returns from that block</p><img src="../imgs/enum_group.png" style="margin=auto ">
+					
+
+					
+				</div>
+			</div>
+			<div ID="footer">
+					<p><h2 ID="follow_bar">Follow Me&nbsp;</h3>
+					<a href="https://www.facebook.com/sagarrathi19" ID="f_link" target="_blank"><img src="../imgs/facebook.png" ID="imgfollow"/></a>
+					<a href="https://www.linkedin.com/pub/sagar-rathi/8a/a28/9b3/" ID="f_link" target="_blank"><img src="../imgs/linkedin.png" ID="imgfollow"/></a>
+					<a href="https://twitter.com/sagararathi" ID="f_link" target="_blank"><img src="../imgs/twitter.png" ID="imgfollow"/></a>
+									</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+<!html>

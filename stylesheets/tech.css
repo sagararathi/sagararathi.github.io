@@ -7,6 +7,9 @@ html{
 	height: auto;
 	margin: auto;
 }
+code{
+	background-color: lightgrey;
+}
 
 #header{
 /*z-index: 1;*/
