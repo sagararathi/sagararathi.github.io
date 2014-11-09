@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/tech.css">
+	<title>Blog Ways to Create Classes in Ruby</title>
+
+</head>
+<body>
+	<div ID="container">
+		<div ID="header">
+			
+ 
+
+		</div>
+
+		<div ID="content">
+			<div id="post">
+				<div> <h1>Ways to Create Classes in Ruby</h1>
+					<p><h3 ID="tag">Created By Sagar Rathi<br>Date: 11/09/2014</h3></p>
+					<p>Classes are first-class objects in Ruby. All classes happen to be instances of Class. In other words, classes are Class objects just like 'hello' and 'world' are String objects. There are 3 ways to create classes in Ruby.</p>
+					<h1>Use the class Keyword</h1>
+					<p>You would use the class keyword to create a class. This is usually called a class definition:</p><img src="../imgs/class_1.png" style="margin=auto ">
+					<p>f you're a Rubyist, you've seen and done this so many times. So, let's move on.</p>
+					<h1>Use Class.new</h1>
+					
+					<p>Just like how we created a customer with Customer.new in the example above, we can create a class with Class.new:</p><img src="../imgs/class_2.png" style="margin=auto ">
+
+					<p>This is functionally equivalent to regular class definition, but more explicit.
+
+By convention, classes are referenced by constants in Ruby. This is why we're assigning the object returned by Class.new to Customer constant, but we can assign it to a regular variable as well. On the other hand, if you don't use a constant in a regular class definition, you will get an error:</p>
+<h1>Use Struct</h1>
+
+					<p>Struct is available as part of Ruby's standard library, and you don't need to require anything to use it. Struct lets you create classes for data container objects without any boilerplate:</p><img src="../imgs/class_3.png" style="margin=auto "><p>This has all the features of Customer class we created with regular class definition as well as using Class.new above. In addition, the customer objects will have equality as per value object semantics.</p>
+
+					<h1>Conclusion</h1>
+
+					<p>In Ruby, you can create classes using the class keyword (class definition), Class.new, and Struct. Although you would use regular class definition in the vast majority of cases, Class.new and Struct would sometimes come in handy if you know how to use them.</p>
+					
+					
+				</div>
+			</div>
+			<div ID="footer">
+					<p><h2 ID="follow_bar">Follow Me&nbsp;</h3>
+					<a href="https://www.facebook.com/sagarrathi19" ID="f_link" target="_blank"><img src="../imgs/facebook.png" ID="imgfollow"/></a>
+					<a href="https://www.linkedin.com/pub/sagar-rathi/8a/a28/9b3/" ID="f_link" target="_blank"><img src="../imgs/linkedin.png" ID="imgfollow"/></a>
+					<a href="https://twitter.com/sagararathi" ID="f_link" target="_blank"><img src="../imgs/twitter.png" ID="imgfollow"/></a>
+									</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+<!html>
