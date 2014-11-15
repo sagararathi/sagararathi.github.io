@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" type="text/css" href="../stylesheets/tech.css">
+	<title>Blog Variable Scope in Ruby</title>
+
+</head>
+<body>
+	<div ID="container">
+		<div ID="header">
+			
+ 
+
+		</div>
+
+		<div ID="content">
+			<div id="post">
+				<div> <h1>Variable Scope in Ruby</h1>
+					<p><h3 ID="tag">Created By Sagar Rathi<br>Date: 11/15/2014</h3></p>
+					<p></p>
+					<h1>What kinds of variables does Ruby support? Where are they accessible? When would you use them and what makes them different?</h1>
+					
+					<h2>Local Variable</h2>
+					<p>Local variables are defined with just the small letters and underscores. Just like the name suggests, local variables are locally available for use. For example if a local variable is defined within a method, or a loop, it can only be accessed within that method / loop. All the following are local variables:-</p><img src="../imgs/var1.png" style="margin=auto ">
+					<h2>Global Variable</h2>
+					<p>Global variables are defined with $ sign followed by letter/word/or combination of word separated with underscore.These variables are accessible to all the methods, classes and objects; regardless of where they are defined.</p>
+					<img src="../imgs/var2.png" style="margin=auto ">
+					
+					<h2>Instance Variable</h2>
+					<p>Instance Variables are defined with @ sign in front of a letter/word or combination of words separated by underscore. Instance variables are the most commonly used ones. Unlike the class variables, two or more different objects within the same class or the class which inherits from another class are allowed to have different values for the instance variables. For example</p><img src="../imgs/var3.png" style="margin=auto ">
+					
+					<h2>Class Variable</h2>
+					<p>Class Variables are defined with double @@ signs followed by letter/word/or combination of word separated with underscore. These variables are not so common, these can be accessed within the class its defined in. And once the value changes, the value of this variable hangs throughout.</p>
+					<img src="../imgs/var4.png" style="margin=auto ">
+					
+>
+					
+					
+				</div>
+			</div>
+			<div ID="footer">
+					<p><h2 ID="follow_bar">Follow Me&nbsp;</h3>
+					<a href="https://www.facebook.com/sagarrathi19" ID="f_link" target="_blank"><img src="../imgs/facebook.png" ID="imgfollow"/></a>
+					<a href="https://www.linkedin.com/pub/sagar-rathi/8a/a28/9b3/" ID="f_link" target="_blank"><img src="../imgs/linkedin.png" ID="imgfollow"/></a>
+					<a href="https://twitter.com/sagararathi" ID="f_link" target="_blank"><img src="../imgs/twitter.png" ID="imgfollow"/></a>
+									</p>
+			</div>
+		</div>
+	</div>
+</body>
+
+<!html>
