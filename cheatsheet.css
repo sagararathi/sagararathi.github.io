@@ -1,0 +1,84 @@
+body {
+	background-color: lightgrey;
+	font-family: Arvo;
+}
+
+#header {
+	width: 90%;
+	height: 100px;
+
+	background-color: #454242;
+	margin: 0 5% 1% 5%;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px black;
+}
+
+#header_text {
+	padding: 2%;
+	text-align: center;
+}
+
+#container {
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+	
+}
+
+#left {
+	position: relative;
+	width:15%;
+	height: auto;
+	float: left;
+	margin-left: 5%;
+	margin-bottom: 1%;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px black;
+	text-align: left;
+	padding-left: 50px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#title {
+	font-family: 'Bree Serif';
+}
+
+#right {
+	position: relative;
+	width:68%;
+	height: auto;
+	float: right;
+	padding-left: 2px;
+	margin-right: 5%;
+	margin-bottom: 0.8%;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px black;
+	padding-left: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#code {
+	background-color: #E6E6E6;
+	font-family: Courier New;
+	padding-left: 10px;
+	padding-bottom: 15px;
+	width: 95%;
+}
+
+#footer {
+	position: relative;
+	width: 90%;
+	height: 30px;
+	background-color: #454242;
+	clear:both;
+	margin: 5% 10px 1% 5%;
+	padding-top: 10px;
+	/*border-radius: 5px;*/
+	border-bottom-right-radius: 5px;
+border-bottom-left-radius: 5px;
+	box-shadow: 5px 5px 5px black;
+}

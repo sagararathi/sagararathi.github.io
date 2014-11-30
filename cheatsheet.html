@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	
+    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Arvo|Bree+Serif' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="cheatsheet.css">
+    <title>Ruby Enumerables Cheatsheet</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+  	<div ID="header">
+      <h1 ID="header_text">Ruby Enumerables Cheatsheet</h1>
+    </div>
+
+    <!-- CONTAINER: INCLUDES LINKS AND BODY TEXT -->
+    <div ID="container">
+      <div ID="left">
+        <h3 id="title">METHODS</h3>
+        <p><a href="#each_with_index">#each with index</a></p>
+        <p><a href="#inject">#inject</a></p>
+        <p><a href="#select">#select</a></p>
+        <p><a href="#reverse_each">#reverse_each</a></p>
+      </div>
+
+      <div ID="right">
+        <!-- METHOD: EACH WITH INDEX -->
+        <p>
+          <a name="each_with_index"><h3 id="title">#each with index</h3></a>
+          The #each_with_index method calls a block with two arguments: the item and the index.
+          <p id="code">
+            <br>hash = Hash.new
+            <br>%w(cat dog wombat).each_with_index {|item, index|
+            <br>  hash[item] = index
+            <br>}
+            <br><br>hash   #=> {"cat"=>0, "dog"=>1, "wombat"=>2}
+          </p>
+        </p>
+
+        <!-- METHOD: INJECT -->
+        <p>
+          <a name="inject"><h3 id="title">#inject</h3></a>
+          The #inject method combines all elements of enum by applying a binary operation, specified by a block or a symbol that names a method or operator.
+          <p id="code">
+            <br>def sum(array)
+            <br>array.inject(0) do |sum, i|
+            <br>sum += i
+            <br>end
+            <br>end
+
+            <br><br>sum([1,2,3])
+            <br>#=> 6
+          </p>
+        </p>
+
+        <!-- METHOD: SELECT -->
+        <p>
+          <a name="select"><h3 id="title">#select</h3></a>
+          The #select method invokes the block passing in successive elements from self, returning an array containing those elements for which the block returns a true value.
+          <p id="code">
+            <br>all_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+            <br>even_numbers = []
+
+            <br><br>all_numbers.each do |number|
+            <br>even_numbers << number if number%2 == 0
+            <br>end
+
+            <br><br>#=> [2, 4, 6, 8, 10]</p>
+        </p>
+
+        <!-- METHOD: REVERSE -->
+        <p>
+          <a name="reverse_each"><h3 id="title">#reverse</h3></a>
+          The #reverse method reverses self in place.
+          <p id="code">
+            <br>a = [ "a", "b", "c" ]
+            <br>a.reverse!       #=> ["c", "b", "a"]
+            <br>a                #=> ["c", "b", "a"]
+          </p>
+        </p>
+    	</div>
+
+    <!-- FOOTER -->
+  	<div ID="footer"></div>
+
+  </body>
+</html>
