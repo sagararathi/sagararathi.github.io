@@ -53,7 +53,7 @@ body{
 .logo{
 	
 	
-	margin-bottom: -25px;
+	margin-bottom: -29px;
 	width:50%;
 	height: 60px;
 	
@@ -112,15 +112,12 @@ text-shadow: 2px 2px #000000;
 #abt1{
 	font-family: cursive;
 	padding-right: 30px;
-	
 }
 
 #sticky_container{
-	
 	width: auto;
 	height: auto;
 	clear: both;
-
 }
 #sticky{
 	float: right;
